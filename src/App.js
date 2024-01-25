@@ -8,6 +8,8 @@ import Education from "./components/Education";
 import { BrowserRouter as Router } from "react-router-dom";
 import Experience from "./components/Experience";
 import Projects from "./Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
@@ -43,7 +45,9 @@ function App() {
         <Projects/>
         <Wrapper>
           <Education/>
+          <Contact/>
         </Wrapper>
+        <Footer/>
       </Body>
     </Router>
      
