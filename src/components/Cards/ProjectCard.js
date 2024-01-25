@@ -47,18 +47,60 @@ const Details = styled.div`
     padding: 0px 2px;
 `
 
-const Members = styled.div`
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
+const Tag = styled.span`
+    font-size: 12px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.primary};
+    background-color: ${({ theme }) => theme.primary + 15};
+    padding: 2px 8px;
+    border-radius: 10px;
+`
+
+const Title = styled.div`
+    font-size: 20px;
+    font-weight: 600;
+    color: ${({ theme }) => theme.text_secondary};
+    overflow: hidden;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+`
+const Date = styled.div`
+    font-size: 12px;
+    margin-left: 2px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.text_secondary + 80};
+    @media only screen and (max-width: 768px){
+        font-size: 10px;
+    }
+`
+const Description = styled.div`
+    font-weight: 400;
+    color: ${({ theme }) => theme.text_secondary + 99};
+    overflow: hidden;
+    margin-top: 8px;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
 `
 const ProjectCard = ({project}) => {
   return (
     <Card>
     <Image src={project.image}/>
-    <Tags></Tags>
-    <Details></Details>
-    <Members></Members>
+    <Tags>{project.tags.map((tag)=>(
+        <Tag key={tag}>{tag}</Tag>
+    ))}</Tags>
+    <Details>
+        <Title>{project.title}</Title>
+        <Date>{project.date}</Date>
+        <Description>{project.description}</Description>
+    </Details>
+    
     </Card>
   )
 }
