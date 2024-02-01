@@ -104,6 +104,7 @@ const ContactInputMessage = styled.textarea`
 `
 
 const ContactButton = styled.input`
+    cursor: pointer;
   width: 100%;
   text-decoration: none;
   text-align: center;
@@ -118,6 +119,7 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  
 `
 
 

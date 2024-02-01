@@ -1,8 +1,11 @@
 
-import React, { useState } from "react";
-import styled from "styled-components";
-import ProjectCard from "../components/Cards/ProjectCard";
-import { projects } from "../data/constants";
+import React from 'react'
+import { useState } from 'react'
+// import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Divider } from './ProjectsStyle'
+import styled from 'styled-components';
+// import ProjectCard from '../Cards/ProjectCards'
+import { projects } from '../data/constants';
+import ProjectCard from '../components/Cards/ProjectCard';
 
 const Container = styled.div`
   background: linear-gradient(
@@ -103,55 +106,54 @@ const CardContainer= styled.div`
     flex-wrap: wrap;
 `;
 
-const Projects = () => {
-    const [toggle,setToggle] = useState("all");
+const Projects = ({openModal,setOpenModal}) => {
+  const [toggle, setToggle] = useState('all');
   return (
     <Container id="projects">
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on many projects mainly web apps.Here are some of my
-          projects.
+          I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
         </Desc>
-        <ToogleGroup>
-        {toggle === "all" ? (
-            <ToogleButton active value="all" onClick={()=>setToggle("all")}>All</ToogleButton>) : (
-                <ToogleButton onClick={()=>setToggle("all")}>All</ToogleButton>
-            )}
+        <ToogleGroup >
+          {toggle === 'all' ?
+            <ToogleButton active value="all" onClick={() => setToggle('all')}>All</ToogleButton>
+            :
+            <ToogleButton value="all" onClick={() => setToggle('all')}>All</ToogleButton>
+          }
           <Divider />
-          {toggle === "web app" ? (
-          <ToogleButton active onClick={()=>setToggle("web app")}>Web App</ToogleButton>
-          ):(
-            <ToogleButton onClick={()=>setToggle("web app")}>Web App</ToogleButton>
-          )}
+          {toggle === 'web app' ?
+            <ToogleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToogleButton>
+            :
+            <ToogleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToogleButton>
+          }
           <Divider />
-          {toggle === "android app" ? (
-          <ToogleButton active onClick={()=>setToggle("android app")}>Android App</ToogleButton>
-          ):(
-           < ToogleButton onClick={()=>setToggle("android app")}>Android App</ToogleButton>
-          )}
+          {toggle === 'android app' ?
+            <ToogleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToogleButton>
+            :
+            <ToogleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToogleButton>
+          }
           <Divider />
-          {toggle === "machine learning" ? (
-          <ToogleButton active onClick={()=>setToggle("machine learning")}>Machine Learning</ToogleButton>
-          ):(
-            <ToogleButton onClick={()=>setToggle("machine learning")}>Machine Learning</ToogleButton>
-          )}
+          {toggle === 'machine learning' ?
+            <ToogleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToogleButton>
+            :
+            <ToogleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToogleButton>
+          }
         </ToogleGroup>
         <CardContainer>
-        {toggle === 'all' && projects
+          {toggle === 'all' && projects
             .map((project) => (
-              <ProjectCard project={project} />
+              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
           {projects
             .filter((item) => item.category === toggle)
             .map((project) => (
-              <ProjectCard project={project} />
+              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
         </CardContainer>
-        
       </Wrapper>
     </Container>
-  );
-};
+  )
+}
 
-export default Projects;
+export default Projects
