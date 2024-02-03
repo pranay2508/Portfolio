@@ -166,7 +166,7 @@ export const experiences = [
       "JavaScript",
       "Figma"
     ],
-    doc: "https://github.com/pranay2508/pranay2508.github.io/assets/56022492/a0fe51f5-a4ab-4405-9cef-7ece9769c11c",
+    doc: "https://github-production-user-asset-6210df.s3.amazonaws.com/56022492/301933404-a0fe51f5-a4ab-4405-9cef-7ece9769c11c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240203%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240203T141455Z&X-Amz-Expires=300&X-Amz-Signature=5562b84b7feb2aa293b43a7ed04b26f24274b4c5f0868ed68465d1fd0be7f753&X-Amz-SignedHeaders=host&actor_id=56022492&key_id=0&repo_id=212054590",
   },
   {
     id: 2,
@@ -199,7 +199,7 @@ export const experiences = [
       "Bootstrap",
       "HTML",
     ],
-    doc: "https://github.com/pranay2508/Air-booking/assets/56022492/dd6d2cf8-d08a-4e69-ac56-2c6bcfe2caa2",
+    doc: "https://github-production-user-asset-6210df.s3.amazonaws.com/56022492/301933459-22c578a4-9b1b-4574-8f40-a60609e8545a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240203%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240203T141531Z&X-Amz-Expires=300&X-Amz-Signature=3d86e2582c9e3d4f930d51ea1a04f592cb4581eae4a8a11688ce1b5f62a62e65&X-Amz-SignedHeaders=host&actor_id=56022492&key_id=0&repo_id=212054590",
   },
   
 ];
