@@ -166,7 +166,7 @@ export const experiences = [
       "JavaScript",
       "Figma"
     ],
-    doc: "https://github-production-user-asset-6210df.s3.amazonaws.com/56022492/301933404-a0fe51f5-a4ab-4405-9cef-7ece9769c11c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240202%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240202T181743Z&X-Amz-Expires=300&X-Amz-Signature=8feac1ce16596a67fb38386d2c5b0a148fa211877d908ac339682c7f0ec2cf6f&X-Amz-SignedHeaders=host&actor_id=56022492&key_id=0&repo_id=212054590",
+    doc: "https://github.com/pranay2508/pranay2508.github.io/assets/56022492/a0fe51f5-a4ab-4405-9cef-7ece9769c11c",
   },
   {
     id: 2,
@@ -184,7 +184,7 @@ export const experiences = [
       "Firebase",
       
     ],
-    doc:"https://github-production-user-asset-6210df.s3.amazonaws.com/56022492/301931732-aed58773-750b-4f94-834a-6c1059415a9a.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240202%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240202T180959Z&X-Amz-Expires=300&X-Amz-Signature=66d79e3244163ce49be7ad69650d5bdf4332f720389c7ca851cf93a7a6233aed&X-Amz-SignedHeaders=host&actor_id=56022492&key_id=0&repo_id=212054590"
+    doc:"https://github-production-user-asset-6210df.s3.amazonaws.com/56022492/301931732-aed58773-750b-4f94-834a-6c1059415a9a.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240203%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240203T140735Z&X-Amz-Expires=300&X-Amz-Signature=3094ec9c987175afd4a9935f4cec8bba384aab2b7baaa2cf6d8bc5de73c9ec2d&X-Amz-SignedHeaders=host&actor_id=56022492&key_id=0&repo_id=212054590"
   },
   {
     id: 3,
@@ -199,7 +199,7 @@ export const experiences = [
       "Bootstrap",
       "HTML",
     ],
-    doc: "https://github-production-user-asset-6210df.s3.amazonaws.com/56022492/301933459-22c578a4-9b1b-4574-8f40-a60609e8545a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240202%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240202T181856Z&X-Amz-Expires=300&X-Amz-Signature=5d1c92c8a468fe1ff4d6504d36489813e977eb83deff16957291cf8c9850eb9c&X-Amz-SignedHeaders=host&actor_id=56022492&key_id=0&repo_id=212054590",
+    doc: "https://github.com/pranay2508/Air-booking/assets/56022492/dd6d2cf8-d08a-4e69-ac56-2c6bcfe2caa2",
   },
   
 ];
