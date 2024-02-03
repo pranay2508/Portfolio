@@ -3,7 +3,7 @@ import styled from "styled-components";
 import React from "react";
 import HeroBgAnimation from "../../HeroBgAnimation";
 // import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton } from './HeroStyle'
-import passport_size_photo from "../../images/passport_size_photo.jpeg";
+import passport_size_photo2 from "../../images/passport_size_photo2.jpeg"
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
 
@@ -241,7 +241,7 @@ const HeroSection = () => {
           </HeroLeftContainer>
 
           <HeroRightContainer id="Right">
-            <Img src={passport_size_photo} alt="hero-image" />
+            <Img src={passport_size_photo2} alt="hero-image" />
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>

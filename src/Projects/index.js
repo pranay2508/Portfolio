@@ -77,26 +77,26 @@ const ToogleButton = styled.div`
   padding: 8px 18px;
   border-radius: 6px;
   cursor: pointer;
-  ${({ active, theme }) =>
+  /* ${({ active, theme }) =>
     active && (
     `background: ${theme.primary + 30};
-    color: white;
+    
     `
     
-    )}
-  &:hover {
+    )} */
+  /* &:hover {
     background: ${({ theme }) => theme.primary + 8};
-  }
+  } */
   @media (max-width: 768px) {
     padding: 6px 8px;
     border-radius: 4px;
   }
 `;
-const Divider = styled.div`
-  width: 1.5px;
-  background: ${({ theme }) => theme.primary};
+// const Divider = styled.div`
+//   width: 1.5px;
+//   background: ${({ theme }) => theme.primary};
   
-`;
+// `;
 
 const CardContainer= styled.div`
  display: flex;
@@ -113,32 +113,27 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
+          I have made several projects mainly only Webapps.
         </Desc>
         <ToogleGroup >
-          {toggle === 'all' ?
+          {/* {toggle === 'all' ?
             <ToogleButton active value="all" onClick={() => setToggle('all')}>All</ToogleButton>
             :
             <ToogleButton value="all" onClick={() => setToggle('all')}>All</ToogleButton>
-          }
-          <Divider />
+          } */}
+          {/* <Divider /> */}
           {toggle === 'web app' ?
-            <ToogleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToogleButton>
+            <ToogleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP</ToogleButton>
             :
-            <ToogleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToogleButton>
+            <ToogleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP</ToogleButton>
           }
-          <Divider />
-          {toggle === 'android app' ?
+          {/* <Divider /> */}
+          {/* {toggle === 'android app' ?
             <ToogleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToogleButton>
             :
             <ToogleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToogleButton>
-          }
-          <Divider />
-          {toggle === 'machine learning' ?
-            <ToogleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToogleButton>
-            :
-            <ToogleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToogleButton>
-          }
+          } */}
+          {/* <Divider /> */}
         </ToogleGroup>
         <CardContainer>
           {toggle === 'all' && projects
