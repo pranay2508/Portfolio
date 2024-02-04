@@ -108,8 +108,9 @@ const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
   text-align: center;
-  background: hsla(271, 100%, 50%, 1);
-  background: linear-gradient(
+  /* background: hsla(271, 100%, 50%, 1); */
+  background: #CA6F1E;
+  /* background: linear-gradient(
     225deg,
     hsla(271, 100%, 50%, 1) 0%,
     hsla(294, 100%, 50%, 1) 100%
@@ -123,7 +124,7 @@ const ContactButton = styled.input`
     225deg,
     hsla(271, 100%, 50%, 1) 0%,
     hsla(294, 100%, 50%, 1) 100%
-  );
+  ); */
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;

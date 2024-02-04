@@ -8,6 +8,7 @@ import { projects } from '../data/constants';
 import ProjectCard from '../components/Cards/ProjectCard';
 
 const Container = styled.div`
+
   background: linear-gradient(
     343.07deg,
     rgba(132, 59, 206, 0.06) 5.71%,

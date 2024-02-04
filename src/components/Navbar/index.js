@@ -1,6 +1,6 @@
 import React from "react";
 // import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
-import { DiCssdeck } from "react-icons/di";
+import { DiProlog } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
 import { Bio } from "../../data/constants";
 // import { Close, CloseRounded } from '@mui/icons-material';
@@ -239,7 +239,7 @@ const Navbar = () => {
               cursor: "pointer",
             }}
           >
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+            <DiProlog color="#D68910" size="3rem" /> <Span color="#D68910">Portfolio</Span>
           </a>
         </NavLogo>
         <MobileIcon>
