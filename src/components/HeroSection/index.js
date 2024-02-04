@@ -111,12 +111,12 @@ export const Img = styled.img`
 
   @media (max-width: 768px) {
     max-width: 400px;
-    max-height: 400px;
+    max-height: 500px;
   }
 
   @media (max-width: 640px) {
-    max-width: 280px;
-    max-height: 280px;
+    max-width: 300px;
+    max-height: 350px;
   }
 `;
 
