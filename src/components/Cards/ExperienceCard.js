@@ -36,7 +36,7 @@ transition:all 0.3s ease-in-out;
   gap:8px;
   width:300px;
 }
-border: 0.1px solid #306ee8;
+border: 0.1px solid #D68910; // to be modified
 box-shadow: rgba (23,92,230,0.15) 0px 4px 24px;
 `;
 

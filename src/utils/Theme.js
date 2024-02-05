@@ -20,7 +20,3 @@ export const lightTheme = {
     card:"#FFFFFF",
     button:"#091618",
 }
-
-//primary: #854CE6
-// bgLight: "#1C1E27",
-//bg:"#1C1C27",
