@@ -212,13 +212,14 @@ export const ResumeButton = styled.a`
 `;
 
 //---------------------------------------------------------------------------------------------------------
-
+// in this section we have used the herebganimation.....
 const HeroSection = () => {
   return (
     <div id="about">
       <HeroContainer>
+    
         <HeroBg>
-          <HeroBgAnimation />
+          <HeroBgAnimation />   
         </HeroBg>
         <HeroInnerContainer>
           <HeroLeftContainer id="Left">
