@@ -166,7 +166,7 @@ export const experiences = [
       "JavaScript",
       "Figma"
     ],
-    doc: "https://github-production-user-asset-6210df.s3.amazonaws.com/56022492/301933404-a0fe51f5-a4ab-4405-9cef-7ece9769c11c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240203%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240203T141455Z&X-Amz-Expires=300&X-Amz-Signature=5562b84b7feb2aa293b43a7ed04b26f24274b4c5f0868ed68465d1fd0be7f753&X-Amz-SignedHeaders=host&actor_id=56022492&key_id=0&repo_id=212054590",
+    doc: "https://firebasestorage.googleapis.com/v0/b/storeage-ddad0.appspot.com/o/Techmihirnaik.png?alt=media&token=e2adeab6-667b-4a62-84fc-65c3a85fa5de",
   },
   {
     id: 2,
@@ -182,9 +182,8 @@ export const experiences = [
       "HTML",
       "Reactjs",
       "Firebase",
-      
     ],
-    doc:"https://github-production-user-asset-6210df.s3.amazonaws.com/56022492/301931732-aed58773-750b-4f94-834a-6c1059415a9a.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240203%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240203T140735Z&X-Amz-Expires=300&X-Amz-Signature=3094ec9c987175afd4a9935f4cec8bba384aab2b7baaa2cf6d8bc5de73c9ec2d&X-Amz-SignedHeaders=host&actor_id=56022492&key_id=0&repo_id=212054590"
+    doc:"https://firebasestorage.googleapis.com/v0/b/storeage-ddad0.appspot.com/o/karo.jpeg?alt=media&token=69528ede-0b22-4c4b-80ce-81f39ce7cad5"
   },
   {
     id: 3,
@@ -199,7 +198,7 @@ export const experiences = [
       "Bootstrap",
       "HTML",
     ],
-    doc: "https://github-production-user-asset-6210df.s3.amazonaws.com/56022492/301933459-22c578a4-9b1b-4574-8f40-a60609e8545a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240203%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240203T141531Z&X-Amz-Expires=300&X-Amz-Signature=3d86e2582c9e3d4f930d51ea1a04f592cb4581eae4a8a11688ce1b5f62a62e65&X-Amz-SignedHeaders=host&actor_id=56022492&key_id=0&repo_id=212054590",
+    doc: "https://firebasestorage.googleapis.com/v0/b/storeage-ddad0.appspot.com/o/twowaits.png?alt=media&token=cde6352d-bb3b-4aae-8043-5cdccf5f58f8",
   },
   
 ];
