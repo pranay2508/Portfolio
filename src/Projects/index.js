@@ -6,7 +6,7 @@ import styled from 'styled-components';
 // import ProjectCard from '../Cards/ProjectCards'
 import { projects } from '../data/constants';
 import ProjectCard from '../components/Cards/ProjectCard';
-
+//done
 const Container = styled.div`
 
   background: linear-gradient(
