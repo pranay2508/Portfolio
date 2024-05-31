@@ -142,14 +142,14 @@ export const experiences = [
     role: "Software Engineer",
     company: "Surelia Infosystem",
     date: "Jan 2024 - Present",
-    desc: "• Currently contributing to the Euclidean project, a chatbot/chat application designed to provide users with accurate information (prompts) sourced from the internet Actively involved in enhancing the user interface (UI) to improve user experience and visual appeal. • Utilizing Vue.js for front‑end development and Python for back‑end development to enhance the functionality and performance of the application. •During internship period completed learning experience focusing on Frontend stack HTML, CSS, JavaScript, and React.",
+    desc: "• Currently contributing to the Euclidean project, a chatbot/chat application designed to provide users with accurate information (prompts) sourced from the internet Actively involved in enhancing the user interface (UI) to improve user experience and visual appeal. • Utilizing Vue.js for front‑end development and Python for back‑end development to enhance the functionality and performance of the application. •During internship period completed learning experience focusing on Frontend stack HTML5, CSS3, JavaScript, and React.",
     
     skills: [
       "React.js",
       "Vue.js",
       "JavaScript",
-      "HTML5",
       "CSS3",
+      "HTML5",
       "Python",
     ],
   },
