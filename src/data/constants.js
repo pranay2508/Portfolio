@@ -8,7 +8,7 @@ export const Bio = {
     "https://drive.google.com/file/d/1QVKR0urCkyCoZZilv4w0lKbuHwm-6MO0/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/pranay-bhatnagar-0689111aa/",
   twitter: "https://twitter.com/PranayBhatnag10",
-  // insta: "https://www.instagram.com/rishav_chanda/",
+  // insta:
 };
 
 export const skills = [
