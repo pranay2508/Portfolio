@@ -152,6 +152,7 @@ export const experiences = [
       "Entity Framework (EF) Core",
       "C#",
       "JavaScript",
+      "MicroSoft Azure",
       "HTML"
     ],
   },
